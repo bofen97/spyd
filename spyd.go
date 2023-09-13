@@ -19,7 +19,6 @@ func CreateLogs() {
 
 }
 
-//const mysqlUrl = "tyFeng:J0]nt4D_3-NbO>8|GgryV-ry.?G{@tcp(arxivinfo.cvheva0xliby.us-east-1.rds.amazonaws.com:3306)/arxivInfo?parseTime=true"
 //const mysqlUrl = "root:@(127.0.0.1:3306)/arxivInfo?parseTime=true"
 
 func main() {
