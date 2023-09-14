@@ -38,25 +38,21 @@ func main() {
 		log.Fatal(err)
 		return
 	}
+	//start
+	log.Print("task start \n")
+	var tick <-chan time.Time = time.Tick(7 * time.Hour)
+	//loop to ...
+	for range tick {
 
-	err = sqlc.PutAllTopics()
-	if err != nil {
-		log.Fatal(err)
-		return
+		log.Print("run task download arxiv .. \n")
+
+		go func() {
+			//CreateLogs()
+			err = sqlc.PutAllTopics()
+			if err != nil {
+				log.Fatal(err)
+			}
+		}()
 	}
-
-	// var tick <-chan time.Time = time.Tick(6 * time.Hour)
-	// //loop to ...
-	// for range tick {
-	// 	go func() {
-	// 		CreateLogs()
-	// 		err = sqlc.PutAllTopics()
-	// 		if err != nil {
-	// 			log.Fatal(err)
-	// 			return
-	// 		}
-	// 	}()
-
-	// }
 
 }
