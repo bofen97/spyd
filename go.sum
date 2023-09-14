@@ -1,6 +1,6 @@
-github.com/bofen97/musical-spoon v0.0.3 h1:aJA49SCNyN119vUPjJ5UkHuxVvWasN+ogGRPjJd2qUg=
-github.com/bofen97/musical-spoon v0.0.3/go.mod h1:cpuOtaOWiW6M4+rZlOYvQVpsvymtEH2lga9ziyy8bvY=
-github.com/bofen97/sqlc v0.0.6 h1:RldoT6cjJ9nPGQ6ni0xGPGu7Qgd1DBgT2lJpcZHIhEo=
-github.com/bofen97/sqlc v0.0.6/go.mod h1:RnJlCjwwqPqy9ANpKQMJt+prOT2+M3IH4FqiD+cHpys=
+github.com/bofen97/musical-spoon v0.0.4 h1:y0JIULxGArf3HyD1VAoJpxuP6JbPRMQB7qL1ztBARuM=
+github.com/bofen97/musical-spoon v0.0.4/go.mod h1:cpuOtaOWiW6M4+rZlOYvQVpsvymtEH2lga9ziyy8bvY=
+github.com/bofen97/sqlc v0.0.7 h1:IlxZ3KU45J3ov0l4BT0jpG7lwQm823HtUYi2NVbC7T0=
+github.com/bofen97/sqlc v0.0.7/go.mod h1:mlybn7sILoAcg3ffkrqGUGdZot0jzJ03LkZhES1WS/8=
 github.com/go-sql-driver/mysql v1.7.1 h1:lUIinVbN1DY0xBg0eMOzmmtGoHwWBbvnWubQUrtU8EI=
 github.com/go-sql-driver/mysql v1.7.1/go.mod h1:OXbVy3sEdcQ2Doequ6Z5BW6fXNQTmx+9S1MCJN5yJMI=
