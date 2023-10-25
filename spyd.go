@@ -39,8 +39,8 @@ func main() {
 		return
 	}
 	//start
-	log.Print("task start \n")
-	var tick <-chan time.Time = time.Tick(7 * time.Hour)
+	log.Print("arxiv task start \n")
+	var tick <-chan time.Time = time.Tick(30 * time.Minute)
 	//loop to ...
 	for range tick {
 
