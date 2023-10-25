@@ -18,8 +18,8 @@ firebase.google.com/go v3.13.0+incompatible/go.mod h1:xlah6XbEyW6tbfSklcfe5FHJIw
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/bofen97/musical-spoon v0.0.4 h1:y0JIULxGArf3HyD1VAoJpxuP6JbPRMQB7qL1ztBARuM=
 github.com/bofen97/musical-spoon v0.0.4/go.mod h1:cpuOtaOWiW6M4+rZlOYvQVpsvymtEH2lga9ziyy8bvY=
-github.com/bofen97/sqlc v0.0.11 h1:A+YkJ5X5GT6E87cJCybZHUG3sRcxG6CGFRpRGo2LvFY=
-github.com/bofen97/sqlc v0.0.11/go.mod h1:PutHOL9M3+GqHMOUk0rNUxf8UfBa81HoeWSJwd6Fn7c=
+github.com/bofen97/sqlc v0.0.13 h1:yH7tdrBx+aTUcpzli4XSiRQpp0YNmtWNi4EVrOCpVxE=
+github.com/bofen97/sqlc v0.0.13/go.mod h1:PutHOL9M3+GqHMOUk0rNUxf8UfBa81HoeWSJwd6Fn7c=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=

@@ -28,6 +28,12 @@ func main() {
 		log.Fatal("sqlurl is none")
 		return
 	}
+	googlekeyfile := os.Getenv("googlekeyfile")
+	if googlekeyfile == "" {
+		log.Fatal("googlekeyfile is none")
+		return
+	}
+
 	var sqlc = new(SQLConn.SQLConn)
 	err := sqlc.Connect(mysqlUrl)
 	if err != nil {
@@ -48,7 +54,7 @@ func main() {
 
 		go func() {
 			//CreateLogs()
-			err = sqlc.PutAllTopics()
+			err = sqlc.PutAllTopics(googlekeyfile)
 			if err != nil {
 				log.Fatal(err)
 			}
