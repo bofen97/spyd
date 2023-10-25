@@ -2,7 +2,7 @@ module main
 
 go 1.21.0
 
-require github.com/bofen97/sqlc v0.0.12
+require github.com/bofen97/sqlc v0.0.13
 
 require (
 	cloud.google.com/go v0.110.8 // indirect
