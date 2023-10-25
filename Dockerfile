@@ -19,7 +19,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build -o /spyd
 
 FROM scratch
 COPY --from=BUILD /spyd /spyd
-
+COPY files files
 
 
 CMD [ "/spyd" ]
