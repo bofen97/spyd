@@ -2,6 +2,8 @@
 
 FROM golang:1.21 AS BUILD
 
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+
 # Set destination for COPY
 WORKDIR /app
 
@@ -18,8 +20,9 @@ RUN CGO_ENABLED=0 GOOS=linux go build -o /spyd
 
 
 FROM scratch
+COPY --from=BUILD /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=BUILD /spyd /spyd
-COPY files files
+COPY files /files
 
 
 CMD [ "/spyd" ]
