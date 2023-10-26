@@ -46,6 +46,12 @@ func main() {
 	}
 	//start
 	log.Print("arxiv task start \n")
+	log.Printf("get keyfile %s", googlekeyfile)
+	err = sqlc.PutAllTopics(googlekeyfile)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	var tick <-chan time.Time = time.Tick(30 * time.Minute)
 	//loop to ...
 	for range tick {
